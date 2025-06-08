@@ -1,4 +1,3 @@
-
 axios.get('https://dummyjson.com/products/category-list')
   .then(res => {
     const table = document.getElementById('categories-table');
